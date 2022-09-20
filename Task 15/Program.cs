@@ -7,7 +7,7 @@ if ((num == 6) || (num == 7))
 {
     Console.WriteLine($"{week[num - 1]}- выходной день");
 }
-else if (num > 7)
+else if ((num > 7) || (num < 1))
 {
     Console.WriteLine("Такого дня недели нет");
 }
